@@ -163,7 +163,7 @@ function makeBestMove() {
     board.position(game.fen())
     
     if (game.game_over()) {
-        swal("Se termino el juego!", "");
+        swal("Jaque mate!", "");
     }
     return bestMove
 
